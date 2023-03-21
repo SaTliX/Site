@@ -8,8 +8,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.7/dist/tailwind.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     </head>
 
     <header class="fixed top w-full text-white bg-gray-900 bg-opacity-80 body-font">
@@ -55,7 +60,7 @@
   <section id="exemples" class="text-gray-400 bg-gray-900 body-font overflow-hidden">
     <div class="container px-5 py-24 mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://www.gozulting.com/sites/default/files/styles/picture_slideshow/public/uploads/event_pictures/gotaga_shift_race_-_simulateurs_-_le_castellet_-_1920_x_1080.jpg?itok=N5iPFwEE">
+        <img data-aos="fade-right"alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://www.gozulting.com/sites/default/files/styles/picture_slideshow/public/uploads/event_pictures/gotaga_shift_race_-_simulateurs_-_le_castellet_-_1920_x_1080.jpg?itok=N5iPFwEE">
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                 <h2 class="text-sm title-font text-white text-2xl tracking-widest mb-2">GOTAGA SHIFT RACE</h2>
                 <h1 class="text-sm title-font text-gray-500 text-xl title-font font-medium mb-1">Le best des événements</h1>
@@ -80,7 +85,7 @@
                     <p class="leading-relaxed">Découvrez notre équipement de simracing présenté à l'ADAC SimRacing Expo. Louez notre matériel pour améliorer votre expérience de course automobile virtuelle. Utilisez le code promo 'ADAC2023' pour une réduction exclusive sur notre site Web.</p>
                     <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"></div>       
                 </div>
-                <img alt="ADAC Sim Racing Expo" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://reshape.sport1.de/c/t/503581a1-e6f9-4159-92dc-b8011d28f08a/1200x675">
+                <img data-aos="fade-left" alt="ADAC Sim Racing Expo" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://reshape.sport1.de/c/t/503581a1-e6f9-4159-92dc-b8011d28f08a/1200x675">
             </div>
         </div>
     </div>
@@ -123,6 +128,9 @@
       </div>
     </div>
   </section>
+  <script>
+    AOS.init();
+  </script>
 
   </body>
 
